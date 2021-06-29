@@ -9,9 +9,8 @@ module.exports = {
 
     rollupOptions: {
       input: {
-        main: resolve(__dirname, './lib/vendor/js/index.js'),
-        jquery: resolve(__dirname, './lib/vendor/js/jquery.js'),
-        styles: resolve(__dirname, './lib/vendor/js/styles.js'),
+        main: resolve(__dirname, './src/js/index.js'),
+        jquery: resolve(__dirname, './src/js/jquery.js'),
       },
 
       output: {

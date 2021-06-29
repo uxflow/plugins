@@ -15,14 +15,14 @@
      * Auth theme.
      */
     function auth () {
-      wp_enqueue_style ('auth-theme', plugins_url ('dist/auth.css', __FILE__));
+      wp_enqueue_style ('auth-theme', plugins_url ('dist/main.css', __FILE__));
     }
 
     /**
      * Admin theme.
      */
     function admin () {
-      wp_enqueue_style ('admin-theme', plugins_url ('dist/styles.css', __FILE__));
+      wp_enqueue_style ('admin-theme', plugins_url ('dist/main.css', __FILE__));
     }
 
     /**
