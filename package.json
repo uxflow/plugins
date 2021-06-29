@@ -1,0 +1,19 @@
+{
+  "name": "plugins",
+  "main": "dist",
+  "author": {
+    "name": "Yuri Martins",
+    "email": "develop@yumartins.com.br"
+  },
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "watch": "vite",
+    "build": "vite build -c vite.config.js"
+  },
+  "dependencies": {
+    "@uxoctopus/styles": "0.1.0",
+    "sass": "^1.35.1",
+    "vite": "^2.3.8"
+  }
+}
